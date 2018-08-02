@@ -116,42 +116,6 @@ export default {
                     }
                 }
             }
-        },
-
-        button: {
-            wrapper: {
-                wrapper: {
-                    field: {
-                        classes: {
-                            'offset-md-2': true
-                        }
-                    }
-                }
-            }
-        },
-
-        image: {
-            wrapper: {
-                wrapper: {
-                    field: {
-                        classes: {
-                            'offset-md-2': true
-                        }
-                    }
-                }
-            }
-        },
-
-        submit: {
-            wrapper: {
-                wrapper: {
-                    field: {
-                        classes: {
-                            'offset-md-2': true
-                        }
-                    }
-                }
-            }
         }
     },
 

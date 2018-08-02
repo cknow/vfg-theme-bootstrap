@@ -7,6 +7,6 @@ module.exports = {
         window: true
     },
     rules: {
-        'require-jsdoc': 0
+        'require-jsdoc': 'off'
     }
 };

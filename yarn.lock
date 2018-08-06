@@ -27,9 +27,9 @@
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/@cknow/eslint-config/-/eslint-config-3.2.0.tgz#6c7db71de4203f0d0d5a4e7b3ff9efbfd5450b97"
 
-"@cknow/vfg@^1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@cknow/vfg/-/vfg-1.2.0.tgz#a3e03daa66473b96cc45dc58818caee7304c9f6b"
+"@cknow/vfg@^1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@cknow/vfg/-/vfg-1.2.1.tgz#2cb381a91cb8c441da4894c589c748a6d61bafdd"
 
 "@commitlint/cli@^7.0.0":
   version "7.0.0"
@@ -225,9 +225,9 @@
     postcss-modules-sync "^1.0.0"
     source-map "0.6.*"
 
-"@vue/test-utils@^1.0.0-beta.23":
-  version "1.0.0-beta.23"
-  resolved "https://registry.yarnpkg.com/@vue/test-utils/-/test-utils-1.0.0-beta.23.tgz#d6ead08f524c745255ecf3f1675e66149a014ef9"
+"@vue/test-utils@^1.0.0-beta.24":
+  version "1.0.0-beta.24"
+  resolved "https://registry.yarnpkg.com/@vue/test-utils/-/test-utils-1.0.0-beta.24.tgz#da7c3165f49f57f23fdb98caccba0f511effb76f"
   dependencies:
     lodash "^4.17.4"
 
@@ -1685,9 +1685,9 @@ eslint-visitor-keys@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-1.0.0.tgz#3f3180fb2e291017716acb4c9d6d5b5c34a6a81d"
 
-eslint@^5.2.0:
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/eslint/-/eslint-5.2.0.tgz#3901ae249195d473e633c4acbc370068b1c964dc"
+eslint@^5.3.0:
+  version "5.3.0"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-5.3.0.tgz#53695aca5213968aacdf970ccb231e42a2b285f8"
   dependencies:
     ajv "^6.5.0"
     babel-code-frame "^6.26.0"
@@ -1720,7 +1720,7 @@ eslint@^5.2.0:
     path-is-inside "^1.0.2"
     pluralize "^7.0.0"
     progress "^2.0.0"
-    regexpp "^1.1.0"
+    regexpp "^2.0.0"
     require-uncached "^1.0.3"
     semver "^5.5.0"
     string.prototype.matchall "^2.0.0"
@@ -4170,9 +4170,9 @@ regexp.prototype.flags@^1.2.0:
   dependencies:
     define-properties "^1.1.2"
 
-regexpp@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/regexpp/-/regexpp-1.1.0.tgz#0e3516dd0b7904f413d2d4193dce4618c3a689ab"
+regexpp@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/regexpp/-/regexpp-2.0.0.tgz#b2a7534a85ca1b033bcf5ce9ff8e56d4e0755365"
 
 regexpu-core@^1.0.0:
   version "1.0.0"

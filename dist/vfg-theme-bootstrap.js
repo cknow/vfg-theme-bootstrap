@@ -518,6 +518,8 @@
         }
     };
 
+    /* eslint-disable no-undef */
+    /* istanbul ignore next */
     if (typeof window !== 'undefined' && window.Vue) {
         window.Vue.use(vfgTheme);
     }

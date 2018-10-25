@@ -1,7 +1,10 @@
 import theme from './theme';
 
-const vfgTheme = {
+const VfgThemeBootstrap = {
     install: Vue => {
+        if (!Vue.$vfg) {
+            throw new Error('Vfg not found. See https://github.com/cknow/vfg-theme-bootstrap');
+        }
         Vue.$vfg.addTheme('bootstrap', theme);
     }
 };
@@ -9,8 +12,8 @@ const vfgTheme = {
 /* eslint-disable no-undef */
 /* istanbul ignore next */
 if (typeof window !== 'undefined' && window.Vue) {
-    window.Vue.use(vfgTheme);
+    window.Vue.use(VfgThemeBootstrap);
 }
 /* eslint-enable no-undef */
 
-export default vfgTheme;
+export default VfgThemeBootstrap;

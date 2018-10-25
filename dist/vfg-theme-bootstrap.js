@@ -517,6 +517,7 @@
             if (!Vue.$vfg) {
                 throw new Error('Vfg not found. See https://github.com/cknow/vfg-theme-bootstrap');
             }
+
             Vue.$vfg.addTheme('bootstrap', theme);
         }
     };

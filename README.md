@@ -32,13 +32,13 @@ npm install --save-dev @cknow/vfg-theme-bootstrap
 > **Note:** Do not forget to add the style sheets of theme to the header of the page.
 
 ```js
-import vfg from '@cknow/vfg';
-import vfgThemeBootstrap from '@cknow/vfg-theme-bootstrap';
+import Vfg from '@cknow/vfg';
+import VfgThemeBootstrap from '@cknow/vfg-theme-bootstrap';
 
-Vue.use(vfg, {
+Vue.use(Vfg, {
     theme: 'boostrap'
 });
-Vue.use(vfgThemeBootstrap);
+Vue.use(VfgThemeBootstrap);
 ```
 
 Component:
@@ -49,31 +49,29 @@ Component:
 </template>
 
 <script>
-
-export default {
-    data() {
-        return {
-            model: {
-                name: 'Foo Bar',
-                email: 'foo@bar.com',
-            },
-
-            schema: [
-                {
-                    // input text is default
-                    label: 'Name',
-                    model: 'name'
+    export default {
+        data() {
+            return {
+                model: {
+                    name: 'Foo Bar',
+                    email: 'foo@bar.com',
                 },
-                {
-                    inputType: 'email',
-                    label: 'E-mail',
-                    model: 'email'
-                }
-            ]
+
+                schema: [
+                    {
+                        // input text is default
+                        label: 'Name',
+                        model: 'name'
+                    },
+                    {
+                        inputType: 'email',
+                        label: 'E-mail',
+                        model: 'email'
+                    }
+                ]
+            }
         }
     }
-}
-
 </script>
 ```
 

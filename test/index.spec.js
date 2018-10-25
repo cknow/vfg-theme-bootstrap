@@ -1,23 +1,29 @@
 import { createLocalVue } from '@vue/test-utils';
-import vfg from '@cknow/vfg';
-import vfgTheme from '@/';
+import Vfg from '@cknow/vfg';
+import VfgThemeBootstrap from '@/';
 
 describe('module', () => {
     test('module properties', () => {
-        expect(vfgTheme).toBeTruthy();
-        expect(vfgTheme).toHaveProperty('install');
-        expect(vfgTheme.install).toBeInstanceOf(Function);
+        expect(VfgThemeBootstrap).toBeTruthy();
+        expect(VfgThemeBootstrap).toHaveProperty('install');
+        expect(VfgThemeBootstrap.install).toBeInstanceOf(Function);
     });
 
     test('install', () => {
         const localVue = createLocalVue();
 
-        localVue.use(vfg);
+        localVue.use(Vfg);
 
         expect(localVue.$vfg.hasTheme('bootstrap')).toBe(false);
 
-        localVue.use(vfgTheme);
+        localVue.use(VfgThemeBootstrap);
 
         expect(localVue.$vfg.hasTheme('bootstrap')).toBe(true);
+    });
+
+    test('vfg not found', () => {
+        expect(() => {
+            createLocalVue().use(VfgThemeBootstrap);
+        }).toThrow('Vfg not found.');
     });
 });
